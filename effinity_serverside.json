@@ -1,0 +1,179 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2025-04-08 08:24:43",
+    "containerVersion": {
+        "path": "accounts/6140194055/containers/177573298/versions/0",
+        "accountId": "6140194055",
+        "containerId": "177573298",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6140194055/containers/177573298",
+            "accountId": "6140194055",
+            "containerId": "177573298",
+            "name": "La cuisine Serveur GTM de Jules",
+            "publicId": "GTM-K6ZFZSMK",
+            "usageContext": [
+                "SERVER"
+            ],
+            "fingerprint": "1707826989611",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6140194055/containers/177573298/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": true,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": true
+            },
+            "tagIds": [
+                "GTM-K6ZFZSMK"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6140194055",
+                "containerId": "177573298",
+                "tagId": "36",
+                "name": "Effinity Addingwell",
+                "type": "cvt_177573298_35",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "purchaseEvent",
+                        "value": "purchase"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "pageViewEvent",
+                        "value": "page_view"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "leadEvent",
+                        "value": "generate_lead"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "customerId",
+                        "value": "xxx"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "clearCookie",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieExpiration",
+                        "value": "30"
+                    }
+                ],
+                "fingerprint": "1744100658622",
+                "firingTriggerId": [
+                    "34",
+                    "2147479574"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6140194055",
+                "containerId": "177573298",
+                "triggerId": "34",
+                "name": "Purchase Trigger",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "purchase"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "purchase"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GA4"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1744100649033"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6140194055",
+                "containerId": "177573298",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            },
+            {
+                "accountId": "6140194055",
+                "containerId": "177573298",
+                "type": "CLIENT_NAME",
+                "name": "Client Name"
+            }
+        ],
+        "fingerprint": "1744100683386",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6140194055/containers/177573298/versions/0?apiLink=version",
+        "customTemplate": [
+            {
+                "accountId": "6140194055",
+                "containerId": "177573298",
+                "templateId": "35",
+                "name": "Effinity Addingwell",
+                "fingerprint": "1744100649033",
+                "templateData": "___INFO___\n\n{\n  \"type\": \"TAG\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"categories\": [\n    \"AFFILIATE_MARKETING\",\n    \"ADVERTISING\"\n  ],\n  \"displayName\": \"Effinity Addingwell\",\n  \"brand\": {\n    \"id\": \"brand_dummy\",\n    \"displayName\": \"Addingwell\",\n    \"thumbnail\": \"data:image/png;base64,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\\u003d\\u003d\"\n  },\n  \"description\": \"Tag to implement server-side cookie for Effinity and setup concurrent tracking with server to server (S2S).\",\n  \"containerContexts\": [\n    \"SERVER\"\n  ]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"customerId\",\n    \"displayName\": \"Effinity Id\",\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ],\n    \"help\": \"Your unique identifier on Effinity\",\n    \"alwaysInSummary\": true\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"clearCookie\",\n    \"checkboxText\": \"Clear Effinity cookie when receiving a purchase\",\n    \"simpleValueType\": true\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"standardParameters\",\n    \"displayName\": \"Overwrite Standard Parameters\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"subParams\": [\n      {\n        \"type\": \"LABEL\",\n        \"name\": \"label1\",\n        \"displayName\": \"By default, it uses GA4 ecommerce fields\"\n      },\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"transactionId\",\n        \"displayName\": \"Unique transaction reference\",\n        \"simpleValueType\": true\n      },\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"purchaseAmount\",\n        \"displayName\": \"Purchase amount\",\n        \"simpleValueType\": true\n      },\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"currency\",\n        \"displayName\": \"Currency\",\n        \"simpleValueType\": true\n      },\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"voucher\",\n        \"displayName\": \"Voucher\",\n        \"simpleValueType\": true\n      },\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"newCustomer\",\n        \"displayName\": \"New customer\",\n        \"simpleValueType\": true,\n        \"help\": \"1 for a new client, 0 otherwise\"\n      },\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"consentPerformance\",\n        \"displayName\": \"Consent\",\n        \"simpleValueType\": true,\n        \"help\": \"1 when the user consent that their data is used for performance analytics, 0 otherwise\"\n      },\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"attrib\",\n        \"displayName\": \"Attribution\",\n        \"simpleValueType\": true,\n        \"help\": \"1 when Effinity is the last touchpoint, 2 when Effinity intervened but isn\\u0027t last, 0 if Effinity didn\\u0027t intervene.\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"refParameters\",\n    \"displayName\": \"Ref Parameters\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"subParams\": [\n      {\n        \"type\": \"SIMPLE_TABLE\",\n        \"name\": \"refTable\",\n        \"displayName\": \"Additional parameters\",\n        \"simpleTableColumns\": [\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"ref\",\n            \"name\": \"ref\",\n            \"type\": \"SELECT\",\n            \"selectItems\": [\n              {\n                \"value\": \"ref2\",\n                \"displayValue\": \"ref2\"\n              },\n              {\n                \"value\": \"ref3\",\n                \"displayValue\": \"ref3\"\n              },\n              {\n                \"value\": \"ref4\",\n                \"displayValue\": \"ref4\"\n              },\n              {\n                \"value\": \"ref5\",\n                \"displayValue\": \"ref5\"\n              },\n              {\n                \"value\": \"ref6\",\n                \"displayValue\": \"ref6\"\n              },\n              {\n                \"value\": \"ref7\",\n                \"displayValue\": \"ref7\"\n              },\n              {\n                \"value\": \"ref8\",\n                \"displayValue\": \"ref8\"\n              },\n              {\n                \"value\": \"ref9\",\n                \"displayValue\": \"ref9\"\n              },\n              {\n                \"value\": \"ref10\",\n                \"displayValue\": \"ref10\"\n              },\n              {\n                \"value\": \"ref11\",\n                \"displayValue\": \"ref11\"\n              },\n              {\n                \"value\": \"ref12\",\n                \"displayValue\": \"ref12\"\n              },\n              {\n                \"value\": \"ref13\",\n                \"displayValue\": \"ref13\"\n              },\n              {\n                \"value\": \"ref14\",\n                \"displayValue\": \"ref14\"\n              },\n              {\n                \"value\": \"ref15\",\n                \"displayValue\": \"ref15\"\n              },\n              {\n                \"value\": \"ref16\",\n                \"displayValue\": \"ref16\"\n              },\n              {\n                \"value\": \"ref17\",\n                \"displayValue\": \"ref17\"\n              },\n              {\n                \"value\": \"ref18\",\n                \"displayValue\": \"ref18\"\n              },\n              {\n                \"value\": \"ref19\",\n                \"displayValue\": \"ref19\"\n              },\n              {\n                \"value\": \"ref20\",\n                \"displayValue\": \"ref20\"\n              }\n            ]\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"value\",\n            \"name\": \"value\",\n            \"type\": \"TEXT\"\n          }\n        ],\n        \"help\": \"\",\n        \"valueValidators\": []\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"advancedParameters\",\n    \"displayName\": \"Advanced Parameters\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"subParams\": [\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"pageViewEvent\",\n        \"displayName\": \"Page view event name\",\n        \"simpleValueType\": true,\n        \"defaultValue\": \"page_view\"\n      },\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"purchaseEvent\",\n        \"displayName\": \"Purchase event name\",\n        \"simpleValueType\": true,\n        \"defaultValue\": \"purchase\"\n      },\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"leadEvent\",\n        \"displayName\": \"Lead event name\",\n        \"simpleValueType\": true,\n        \"defaultValue\": \"generate_lead\"\n      },\n      {\n        \"type\": \"TEXT\",\n        \"name\": \"cookieExpiration\",\n        \"displayName\": \"Cookie expiration in days\",\n        \"simpleValueType\": true,\n        \"defaultValue\": 30,\n        \"valueValidators\": [\n          {\n            \"type\": \"POSITIVE_NUMBER\"\n          }\n        ]\n      }\n    ]\n  }\n]\n\n\n___SANDBOXED_JS_FOR_SERVER___\n\nconst sendHttpRequest = require('sendHttpRequest');\nconst getAllEventData = require('getAllEventData');\nconst setCookie = require('setCookie');\nconst getCookieValues = require('getCookieValues');\nconst parseUrl = require('parseUrl');\nconst encodeUriComponent = require('encodeUriComponent');\n\nconst eventModel = getAllEventData();\n\nconst PAGE_VIEW_EVENT = data.pageViewEvent;\nconst PURCHASE_EVENT = data.purchaseEvent;\nconst GENERATE_LEAD_EVENT = data.leadEvent;\n\n\nfunction encodeUri(value) {\n  value = value || '';\n  return encodeUriComponent(value);\n}\n\nswitch (eventModel.event_name) {\n  case PAGE_VIEW_EVENT:\n    const parsedUrl = parseUrl(eventModel.page_location);\n    const params = {};\n\n    if (parsedUrl && parsedUrl.searchParams) {\n      for (let param in parsedUrl.searchParams) {\n        if (param.toLowerCase() === 'eff_cpt') {\n          params.editorId = parsedUrl.searchParams[param];\n        }\n        if (param.toLowerCase() === 'eff_sub1') {\n          params.sub1 = parsedUrl.searchParams[param];\n        }\n        if (param.toLowerCase() === 'eff_sub2') {\n          params.sub2 = parsedUrl.searchParams[param];\n        }\n        if (param.toLowerCase() === 'eff_pid') {\n          params.productId = parsedUrl.searchParams[param];\n        }\n      }\n    }\n\n    if (params.editorId) {\n      const value = [\n        params.editorId,\n        params.sub1,\n        params.sub2,\n        params.productId\n      ].join(';');\n\n      const options = {\n        domain: 'auto',\n        path: '/',\n        secure: true,\n        httpOnly: false,\n        'max-age': 86400 * data.cookieExpiration\n      };\n      setCookie('effi', value, options, false);\n    }\n\n    data.gtmOnSuccess();\n    break;\n  case PURCHASE_EVENT:\n  case GENERATE_LEAD_EVENT:\n    const effiCookie = getCookieValues('effi');\n\n    const cookieParams = effiCookie[0] ? effiCookie[0].split(';') : null;\n    const editorId = cookieParams ? cookieParams[0] : null;\n    const subId1 = cookieParams ? cookieParams[1] : null;\n    const subId2 = cookieParams ? cookieParams[2] : null;\n    const effiProductId = cookieParams ? cookieParams[3] : null;\n\n    const urlParams = [\n      'id=' + data.customerId,\n\n      editorId ? 'id_compteur=' + editorId : '',\n      subId1 ? 'effi_id=' + subId1 : '',\n      subId2 ? 'effi_id2=' + subId2 : '',\n      effiProductId ? 'prod_id=' + effiProductId : '',\n      \n      'ref=' + encodeUri(data.transactionId !== undefined ? data.transactionId : eventModel.transaction_id),\n      data.consentPerformance !== undefined ? 'consent_performance=' + encodeUri(data.consentPerformance) : '',\n    ];\n\n    if (eventModel.event_name === PURCHASE_EVENT) {\n      urlParams.push('montant=' + encodeUri(data.purchaseAmount ? data.purchaseAmount : eventModel.value));\n      urlParams.push('monnaie=' + encodeUri(data.currency ? data.currency : eventModel.currency));\n      urlParams.push(data.newCustomer !== undefined ? 'newcustomer=' + data.newCustomer : '');\n      urlParams.push(data.attrib !== undefined ? 'attrib=' + encodeUri(data.attrib) : '');\n      urlParams.push(\n        data.voucher !== undefined || eventModel.coupon !== undefined ?\n          'voucher=' + encodeUri(data.voucher !== undefined ? data.voucher : eventModel.coupon) :\n          ''\n      );\n    }\n\n    const includedRef = [];\n    for (let key in data.refTable) {\n      const row = data.refTable[key];\n      if (includedRef.indexOf(row.ref) !== -1) {\n        continue;\n      }\n\n      if (row.value === undefined) {\n        continue;\n      }\n\n      includedRef.push(row.ref);\n      urlParams.push(row.ref + '=' + encodeUri(row.value));\n    }\n\n    const urlParamsString = urlParams.filter((v) => v).join('&');\n\n    if (data.clearCookie) {\n      setCookie('effi', '', {\n        domain: 'auto',\n        path: '/',\n        secure: true,\n        httpOnly: false,\n        'max-age': 10\n      }, false);\n    }\n    \n    const path = eventModel.event_name === PURCHASE_EVENT ? 'effi.revenuemobile' : 'effi.leadmobile';\n\n    const requestHeaders = { method: 'GET' };\n    const url = 'https://track.effiliation.com/servlet/' + path + '?' + urlParamsString;\n    sendHttpRequest(url, (statusCode, headers, body) => {\n      if (statusCode >= 200 && statusCode < 300) {\n        data.gtmOnSuccess();\n      } else {\n        data.gtmOnFailure();\n      }\n    }, requestHeaders, '');\n    break;\n  default:\n    data.gtmOnSuccess();\n    break;\n}\n\n\n___SERVER_PERMISSIONS___\n\n[\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"read_event_data\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"eventDataAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"send_http\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"allowedUrls\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"urls\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 1,\n                \"string\": \"https://track.effiliation.com/*\"\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"set_cookies\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"allowedCookies\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"name\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"domain\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"path\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"secure\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"session\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"effi\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"*\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"/\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"secure\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"any\"\n                  }\n                ]\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"get_cookies\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"cookieAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"specific\"\n          }\n        },\n        {\n          \"key\": \"cookieNames\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 1,\n                \"string\": \"effi\"\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  }\n]\n\n\n___TESTS___\n\nscenarios: []\n\n\n___NOTES___\n\nCreated on 2/15/2022, 16:06:45\n\n\n"
+            }
+        ]
+    }
+}

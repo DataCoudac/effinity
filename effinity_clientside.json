@@ -1,0 +1,451 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2025-04-08 08:25:08",
+    "containerVersion": {
+        "path": "accounts/6140194055/containers/177578221/versions/0",
+        "accountId": "6140194055",
+        "containerId": "177578221",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6140194055/containers/177578221",
+            "accountId": "6140194055",
+            "containerId": "177578221",
+            "name": "La cuisine GTM de Jules",
+            "publicId": "GTM-5XH893WB",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1707826794322",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6140194055/containers/177578221/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": false
+            },
+            "tagIds": [
+                "GTM-5XH893WB"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6140194055",
+                "containerId": "177578221",
+                "tagId": "126",
+                "name": "Effinity - Addcart",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script src=\"https://track.effiliation.com/ct/xxx.js?page=addcart&idp={{ITEM_ID}}&prix={{ITEM_PRICE}}\" async=\"async\"></script>\n"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1744100557799",
+                "firingTriggerId": [
+                    "122"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6140194055",
+                "containerId": "177578221",
+                "tagId": "127",
+                "name": "Effinity - Produit",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script src=\"https://track.effiliation.com/ct/xxx.js?page=product&idp={{ITEM_ID}}&prix={{ITEM_PRICE}}\" async=\"async\"></script>\n"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1744100576427",
+                "firingTriggerId": [
+                    "118"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6140194055",
+                "containerId": "177578221",
+                "tagId": "128",
+                "name": "Effinity Analytics Tag",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script src=\"https://partner.miniweight.com/ct/xxx.js\" async=\"async\"></script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1744100513980",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6140194055",
+                "containerId": "177578221",
+                "tagId": "133",
+                "name": "Effinity - Category",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script src=\"https://track.effiliation.com/ct/xxx.js?page=category\n&idcat={{DLV - Collection ID}}&wordingcat={{DLV - Collection Title}}\n&idp={{DLV - Visible Product IDs}}\" async=\"async\"></script>\n"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1744100564493",
+                "firingTriggerId": [
+                    "130"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6140194055",
+                "containerId": "177578221",
+                "tagId": "134",
+                "name": "Effinity - Container Tag",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script src=\"https://track.effiliation.com/ct/xxx.js?page=home&consent_ads=\" async=\"async\"></script>\n"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1744100570536",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6140194055",
+                "containerId": "177578221",
+                "triggerId": "118",
+                "name": "Page Produit",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "gtm.load"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{page_type}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "product"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1744100498741"
+            },
+            {
+                "accountId": "6140194055",
+                "containerId": "177578221",
+                "triggerId": "122",
+                "name": "Page Panier",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "gtm.load"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{page_type}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "cart"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1744100498741"
+            },
+            {
+                "accountId": "6140194055",
+                "containerId": "177578221",
+                "triggerId": "130",
+                "name": "Page Catégorie",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "gtm.load"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{page_type}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "collection"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1744100498742"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6140194055",
+                "containerId": "177578221",
+                "variableId": "117",
+                "name": "page_type",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "page_type"
+                    }
+                ],
+                "fingerprint": "1744100498741",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6140194055",
+                "containerId": "177578221",
+                "variableId": "124",
+                "name": "ITEM_ID",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n    if (window.dataLayer && window.dataLayer.length > 0) {\n        for (var i = 0; i < window.dataLayer.length; i++) {\n            var event = window.dataLayer[i];\n            if (event.ecommerce && event.ecommerce.items && event.ecommerce.items.length > 0) {\n                return event.ecommerce.items[0].item_id;\n            }\n        }\n    }\n    return undefined;\n}\n"
+                    }
+                ],
+                "fingerprint": "1744100498741",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6140194055",
+                "containerId": "177578221",
+                "variableId": "125",
+                "name": "ITEM_PRICE",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n    if (window.dataLayer && window.dataLayer.length > 0) {\n        for (var i = 0; i < window.dataLayer.length; i++) {\n            var event = window.dataLayer[i];\n            if (event.ecommerce && event.ecommerce.items && event.ecommerce.items.length > 0) {\n                return event.ecommerce.items[0].price;\n            }\n        }\n    }\n    return undefined;\n}\n"
+                    }
+                ],
+                "fingerprint": "1744100498741",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6140194055",
+                "containerId": "177578221",
+                "variableId": "129",
+                "name": "DLV - Collection ID",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.item_list_id"
+                    }
+                ],
+                "fingerprint": "1744100498742",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6140194055",
+                "containerId": "177578221",
+                "variableId": "131",
+                "name": "DLV - Collection Title",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.item_list_name"
+                    }
+                ],
+                "fingerprint": "1744100498742",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6140194055",
+                "containerId": "177578221",
+                "variableId": "132",
+                "name": "DLV - Visible Product IDs",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  if (window.dataLayer && window.dataLayer.length > 0) {\n    for (var i = 0; i < window.dataLayer.length; i++) {\n      var dl = window.dataLayer[i];\n      if (dl.ecommerce && dl.ecommerce.items) {\n        var ids = dl.ecommerce.items.map(function(item) {\n          return item.item_id;\n        });\n        return ids.join(\",\");\n      }\n    }\n  }\n  return undefined;\n}\n"
+                    }
+                ],
+                "fingerprint": "1744100498742",
+                "formatValue": {}
+            }
+        ],
+        "fingerprint": "1744100708477",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6140194055/containers/177578221/versions/0?apiLink=version"
+    }
+}
